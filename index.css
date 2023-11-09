@@ -136,3 +136,13 @@ nav [class*="fa-"]:hover {
 nav [class*="fa-solid fa-code"] {
   font-size: 110%;
 }
+
+nav .button {
+  background-color: var(--magenta);
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+nav .button:hover {
+  color: var(--white);
+  background-color: var(--hotmag);
+}
